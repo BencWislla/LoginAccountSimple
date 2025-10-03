@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Wislla">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Importando a fonte Inter do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css" />
+  <title>Registro</title>
+</head>
+
+<body>
+  <main>
+    <section id="imagensFundo">
+      <img src="/assets/img/Frame 1.png" alt="logo" value="" />
+    </section>
+    <section id="formulario">
+      <div id="back">
+        <a href="/index.html"> &lt; Back</a>
+      </div>
+      <div id="title">
+        <h1>Account Signup</h1>
+        <p id="parragrafo">Become a member and enjoy exclusive promotions.</p>
+      </div>
+      <form>
+        <label for="name">Full Name</label>
+        <div class="formElements">
+          <input type="text" name="text" id="name" />
+        </div>
+        <label for="email">Email Address</label>
+        <div class="formElements">
+          <input type="email" name="email" id="email" />
+        </div>
+        <label for="cidade">City</label>
+        <div class="formElements">
+          <select id="cidade" name="cidade">
+            <option value="Goiania">Goiania</option>
+            <option value="Rio das Ostras">Rio das Ostras</option>
+            <option value="Mantena">Mantena</option>
+          </select>
+        </div>
+        <label for="service">Service</label>
+        <div class="formElements">
+          <select id="service" name="service">
+            <option value="Luz">Luz</option>
+            <option value="Internet">Internet</option>
+            <option value="Agua">Agua</option>
+          </select>
+        </div>
+        <label for="senha"> Password</label>
+        <div class="formElements">
+          <input type="password" id="senha" />
+        </div>
+        <button id="continue">Continue</button>
+      </form>
+    </section>
+  </main>
+  <script src="/js/registro.js"></script>
+</body>
+
+</html>

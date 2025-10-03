@@ -1,0 +1,163 @@
+body{
+  height: 100vh;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/*Registro*/
+
+main{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+
+}
+
+
+#imagensFundo{
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#imagensFundo img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  /* border: red solid 1px; */
+}
+
+#back{
+ color: #8692A6;
+ margin-left: 1rem;
+ margin-top: .75rem;
+ font-size: .875rem;
+}
+#parragrafo{
+  color:  #8692A6 ;
+  text-decoration: none;
+  font-size: 1rem;
+}
+#parragrafo::first-line {
+  text-decoration: underline;
+  text-decoration-color: #F5F5F5;
+  text-underline-offset: 20px;
+}
+
+#title{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  margin-top: 1rem;
+
+}
+#title h1 {
+ font-size: 1.25rem;
+
+}
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 50%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: .3125rem;
+  color: #696F79;
+  margin-left: 8rem;
+  margin-top: .75rem;
+  font-size: 14px;
+
+
+}
+input, select{
+  border: none;
+}
+
+.formElements{
+  border:#8692A6 1px solid;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 20rem;
+
+}
+button{
+  background-color: #FF8844;
+  border: none;
+  color: white;
+  margin-top: 1rem;
+  width: 21.875rem;
+  height: 2rem;
+  border-radius:6px ;
+  margin-left: .1875rem ;
+
+}
+
+/*LOGIN*/
+
+#titleLogin{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  margin-top: 5rem;
+
+}
+#titleLogin h1{
+  font-size: 1.75rem;
+}
+#parragrafoLogin{
+  color:  #8692A6 ;
+  text-decoration: none;
+  font-size: 1rem;
+}
+#parragrafoLogin::first-line {
+  text-decoration: underline;
+  text-decoration-color: #F5F5F5;
+  text-underline-offset: 40px;
+}
+#formularioLogin{
+  width: 50%;
+
+}
+#LoginForm{
+  margin-top: 2rem;
+  margin-left: 8rem;
+}
+#check{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-top: 0.75rem;
+}
+#registrar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: .375rem;
+  padding: 1rem 3.75rem;
+}
+#singUp{
+ text-decoration: none;
+ color: blue;
+}
+
+
+/*HOME*/
+
+#home{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+#home p {
+  color: #8692A6;
+}

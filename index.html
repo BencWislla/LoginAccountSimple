@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Wislla" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <main>
+    <section id="imagensFundo">
+      <img src="assets/img/Group 1831.png" alt="eletricista" value="eletricista" />
+    </section>
+    <section id="formularioLogin">
+      <div id="titleLogin">
+        <h1>Account Login</h1>
+        <p id="parragrafoLogin">If you are already a member you can login with <br> your email address and password.</p>
+      </div>
+      <form id="LoginForm">
+        <label for="email">Email Address</label>
+        <div class="formElements">
+          <input type="email" name="email" id="email" />
+        </div>
+        <label for="senha"> Password</label>
+        <div class="formElements">
+          <input type="password" id="senha" />
+        </div>
+        <div id="check">
+          <input type="checkbox" id="cbox" value="remember" />
+          <label for="cbox">Remember me</label>
+        </div>
+        <button id="buttonLogin">Login Account</button>
+        <div id="registrar">
+          <p>Dont have an account?</p>
+          <a href="views/registro.html" id="singUp">Sign up here.</a>
+        </div>
+      </form>
+    </section>
+  </main>
+  <script src="js/login.js"></script>
+</body>
+
+</html>
