@@ -27,15 +27,15 @@
       <form>
         <label for="name">Full Name</label>
         <div class="formElements">
-          <input type="text" name="text" id="name" />
+          <input type="text" name="text" id="name" required />
         </div>
         <label for="email">Email Address</label>
         <div class="formElements">
-          <input type="email" name="email" id="email" />
+          <input type="email" name="email" id="email" required />
         </div>
         <label for="cidade">City</label>
         <div class="formElements">
-          <select id="cidade" name="cidade">
+          <select id="cidade" name="cidade" required>
             <option value="Goiania">Goiania</option>
             <option value="Rio das Ostras">Rio das Ostras</option>
             <option value="Mantena">Mantena</option>
@@ -43,7 +43,7 @@
         </div>
         <label for="service">Service</label>
         <div class="formElements">
-          <select id="service" name="service">
+          <select id="service" name="service" required>
             <option value="Luz">Luz</option>
             <option value="Internet">Internet</option>
             <option value="Agua">Agua</option>
@@ -51,7 +51,7 @@
         </div>
         <label for="senha"> Password</label>
         <div class="formElements">
-          <input type="password" id="senha" />
+          <input type="password" id="senha" required />
         </div>
         <button id="continue">Continue</button>
       </form>
